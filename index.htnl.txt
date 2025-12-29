@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- 이 부분은 페이지의 정보를 담아요 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>저를 소개합니다!</title>
+    
+    <!-- 예쁜 디자인을 위한 스타일 -->
+    <style>
+        body {
+            background-color: #fff5e6;  /* 따뜻한 배경색 */
+            font-family: "Arial", sans-serif;
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 40px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #ff6b6b;
+            font-size: 32px;
+        }
+        
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #ffd93d;
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+        }
+        
+        p {
+            color: #333;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+        
+        .hobby {
+            background-color: #e3f2fd;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- 자기소개 카드 시작 -->
+    <div class="card">
+        
+        <!-- 제목 -->
+        <h1>👋 안녕하세요!</h1>
+        
+        <!-- 프로필 사진 (이모지 사용) -->
+        <div class="profile-pic">😊</div>
+        
+        <!-- 이름 -->
+        <h2>김민영입니다</h2>
+        
+        <!-- 간단한 소개 -->
+        <p>
+            저는 코딩을 배우고 있는 12살 학생이에요. 
+            <br>
+            새로운 것을 배우는 것을 정말 좋아합니다! 🌟
+        </p>
+        
+        <!-- 취미 섹션 -->
+        <div class="hobby">
+            <h3>🎨 취미</h3>
+            <p>
+                ✅ 넷플릭스 보기<br>
+                ✅ 운동하기<br>
+                ✅ 책 읽기<br>
+               
+            </p>
+        </div>
+        
+        <!-- 꿈 -->
+        <p>
+            <strong>🚀 나의 꿈:</strong><br>
+            응급구조사가 되고 싶어요!
+        </p>
+        
+    </div>
+</body>
+</html>
